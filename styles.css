@@ -148,6 +148,19 @@ body, html {
      height: 100%;
 }
 
+#splash-container p {
+     margin: 1rem;
+}
+
+@media screen and (max-width: 992px){
+     
+     #splash-container p {
+          font-size: 0.5rem;
+     }
+
+
+}
+
 /*.typewriter {
     font-family: 'VT323', 'Courier New', monospace;
     display: inline-block;
