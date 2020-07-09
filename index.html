@@ -17,7 +17,7 @@
 
      <footer id="footer-content" class="active">
 
-     	<p><span>&copy;</span>&nbsp;<script>document.write(new Date().getFullYear())</script></p>
+     	<p id="copy-date" onload="newDate();"><span>&copy;</span>&nbsp;</p>
 
           <div class="social-link-wrapper">
           	<a href="mailto:charliescakeco@gmail.com">
@@ -49,6 +49,15 @@
           </div>
 
      </footer>
+
+     <script type="application/javascript">
+     	function newDate() {
+			document.open();
+			document.write("<p>" + new Date().getFullYear() + "</p>");
+			document.close();
+			
+		}
+     </script>
      
 </body>
 </html>

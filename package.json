@@ -1,0 +1,55 @@
+{
+  "name": "charliescakeco.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Charlies Cake Co. Website",
+  "author": "charliescakeco <charliescakeco@gmail.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "buttercms": "^1.2.2",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "charliescakeco.github.io@1.0.0",
+  "bugs": {
+    "url": "https://github.com/charliescakeco/charliescakeco.github.io/issues"
+  },
+  "homepage": "https://github.com/charliescakeco/charliescakeco.github.io#readme",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": "git+https://github.com/charliescakeco/charliescakeco.github.io.git"
+}
